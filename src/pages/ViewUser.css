@@ -1,0 +1,55 @@
+.container {
+  padding: 20px;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+  font-size: 1.25rem;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.status {
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  
+}
+
+.status.pending {
+  color: #ffc107; /* Yellow color for pending status */
+}
+
+.status.shipped {
+  color: #28a745; /* Green color for shipped status */
+}
+
+
+    
+  
