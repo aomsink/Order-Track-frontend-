@@ -1,28 +1,47 @@
-# สรุปการทำงานของแต่ละไฟล์ในโปรเจค Frontend
+# Get Started with OrderTrack
 
-## ViewUser.js
-ไฟล์นี้ใช้สำหรับแสดงรายละเอียดของผู้ใช้ตาม `id` ที่ได้รับจาก URL โดยใช้ React hooks `useState` และ `useEffect` เพื่อดึงข้อมูลผู้ใช้จาก API และแสดงผลในรูปแบบการ์ด
+npm start ใน cmd จะขึ้นใน Browser อัตโนมัติ โดยสามารถดูว่ามีรายชื่อคำสั่งมีอันไหนบ้าง
+![image](https://github.com/user-attachments/assets/7e6cb7e4-e20f-4858-a9ff-8f513a62e765)
 
-## ViewUser.css
-ไฟล์นี้ใช้สำหรับกำหนดสไตล์ของหน้า ViewUser โดยมีการกำหนดสไตล์สำหรับ container, card, card-header, card-body, card-title, card-text, btn-primary และ status
+# You can do CRUD by this method
 
-## UpdateUser.js
-ไฟล์นี้ใช้สำหรับอัปเดตข้อมูลผู้ใช้ตาม `id` ที่ได้รับจาก URL โดยใช้ React hooks `useState` และ `useEffect` เพื่อดึงข้อมูลผู้ใช้จาก API และส่งข้อมูลที่อัปเดตกลับไปยัง API
+# Create
+Click ไปที่ Add Order
 
-## Home.js
-ไฟล์นี้ใช้สำหรับแสดงรายการผู้ใช้ทั้งหมด โดยใช้ React hooks `useState` และ `useEffect` เพื่อดึงข้อมูลผู้ใช้จาก API และแสดงผลในตาราง พร้อมทั้งมีปุ่มสำหรับแก้ไข ดู และลบผู้ใช้
+![Screenshot 2025-03-07 093805-edit](https://github.com/user-attachments/assets/8e0e3592-d246-4c83-a107-89dc8a497b9d)
 
-## Employee.js
-ไฟล์นี้ใช้สำหรับแสดงรายการพนักงาน โดยใช้ React class component และ `axios` เพื่อดึงข้อมูลพนักงานจาก API และแสดงผลในตาราง
+Enter your Infotmation What you want 
 
-## CreateUser.js
-ไฟล์นี้ใช้สำหรับสร้างผู้ใช้ใหม่ โดยใช้ React hooks `useState` เพื่อเก็บข้อมูลผู้ใช้และส่งข้อมูลไปยัง API เมื่อฟอร์มถูกส่ง
+![Screenshot 2025-03-07 094216](https://github.com/user-attachments/assets/50421c38-4ecb-40ba-bc63-08cc28ff7de1)
 
-## About.js
-ไฟล์นี้ใช้สำหรับแสดงข้อมูลเกี่ยวกับ โดยใช้ React class component
+หลังจากสร้างเสร็จแล้วจะปรากฎขึ้นในหน้า Home
+![Screenshot 2025-03-07 094441](https://github.com/user-attachments/assets/7b809830-8602-499d-b5d9-52de85d4871a)
 
-## App.js
-ไฟล์นี้เป็นไฟล์หลักของแอปพลิเคชัน ใช้สำหรับกำหนดเส้นทาง (routes) ของแอปพลิเคชัน โดยใช้ `react-router-dom` เพื่อกำหนดเส้นทางไปยังหน้า Home, About, Employee, CreateUser, UpdateUser และ ViewUser
+# Update
 
-## การเปิดใช้งาน
-ใช้คำสั่ง `npm start` หรือ `node server.js`
+Click on edit button
+
+![Screenshot 2025-03-07 094932-edit](https://github.com/user-attachments/assets/fabbcaff-1ba8-48ee-b9cf-fef3079c3d0e)
+
+Edit Your information as you want to edit and submit (ยกเว้น OrderID)
+
+![Screenshot 2025-03-07 095242](https://github.com/user-attachments/assets/90a5ec39-22fa-4e00-987b-808c49db85c7)
+
+หลังจาก Update แล้วจะปรากฎขึ้นในหน้า Home
+
+![Screenshot 2025-03-07 095523-edit](https://github.com/user-attachments/assets/ab25b916-a890-4d2d-8dda-8f43bce15a00)
+
+# Delete
+
+ได้เวลาที่ Delete Press Delete Button and Confirm to delete
+
+![Screenshot 2025-03-07 095825](https://github.com/user-attachments/assets/ce791853-9fb5-4744-a1c3-f80b8ef129b2)
+
+And now you've delete order
+
+![Screenshot 2025-03-07 100039](https://github.com/user-attachments/assets/075f8dea-edc5-413c-9a11-5d638469a286)
+
+
+
+
+
